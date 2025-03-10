@@ -5,7 +5,7 @@ AreAnyAssembliesTrimmed=false
 				AOTOutputDirectory=obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/nativelibraries/aot-output/
 				DedupAssembly=obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/aot-instances.dll
 				AppBundleManifestPath=bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/RandomNumber.app/Contents/Info.plist
-				CacheDirectory=/Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/linker-cache
+				CacheDirectory=/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/linker-cache
 				
 				Debug=true
 				DeploymentTarget=15.0
@@ -185,7 +185,7 @@ FrameworkAssembly=System.Private.CoreLib
 				IntermediateLinkDir=obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/linked/
 				InvariantGlobalization=false
 				HybridGlobalization=true
-				ItemsDirectory=/Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/linker-items
+				ItemsDirectory=/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/linker-items
 				IsAppExtension=false
 				IsSimulatorBuild=False
 				LibMonoLinkMode=static

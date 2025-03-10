@@ -9401,11 +9401,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber/RandomNumber.csproj",
+      "projectUniqueName": "/Users/mateuszmuszynski/RandomNumber/RandomNumber/RandomNumber.csproj",
       "projectName": "RandomNumber",
-      "projectPath": "/Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber/RandomNumber.csproj",
+      "projectPath": "/Users/mateuszmuszynski/RandomNumber/RandomNumber/RandomNumber.csproj",
       "packagesPath": "/Users/mateuszmuszynski/.nuget/packages/",
-      "outputPath": "/Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber/obj/",
+      "outputPath": "/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

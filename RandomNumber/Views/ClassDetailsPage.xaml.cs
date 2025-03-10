@@ -25,7 +25,7 @@ namespace RandomNumber
             StudentsForRandomSelection.Clear();
             foreach (var student in students)
             {
-                StudentsForRandomSelection.Add(new SelectableStudent { Name = student });
+                StudentsForRandomSelection.Add(new SelectableStudent { Name = student, IsSelected = true });
             }
         }
 
@@ -111,6 +111,8 @@ namespace RandomNumber
             }
 
             await DisplayAlert("Wylosowany Uczeń", $"Wylosowano: {randomStudent}", "OK");
+
+            await DataService.SaveRoundHistoryAsync(ClassName, selectedStudents, RecentlyDrawnStudents.ToList());
         }
     }
 

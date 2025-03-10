@@ -1,1 +1,1 @@
--v --force --timestamp=none --sign - --entitlements /Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/RandomNumber.app
+-v --force --timestamp=none --sign - --entitlements /Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/mateuszmuszynski/RandomNumber/RandomNumber/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/RandomNumber.app

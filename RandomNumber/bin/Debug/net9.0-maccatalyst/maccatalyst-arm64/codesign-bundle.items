@@ -3,7 +3,7 @@
   <ItemGroup>
     <_CodesignBundle Include="RandomNumber.app">
       <CodesignSigningKey>-</CodesignSigningKey>
-      <CodesignEntitlements>/Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent</CodesignEntitlements>
+      <CodesignEntitlements>/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent</CodesignEntitlements>
       <CodesignUseSecureTimestamp></CodesignUseSecureTimestamp>
       <CodesignAllocate>/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate</CodesignAllocate>
       <RequireCodeSigning>false</RequireCodeSigning>
@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber</SourceProjectPath>
+      <SourceProjectPath>/Users/mateuszmuszynski/RandomNumber/RandomNumber</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

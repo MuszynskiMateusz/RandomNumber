@@ -8,9 +8,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>RandomNumber.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
       <DSymName>RandomNumber.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/mateuszmuszynski/Projects/RandomNumber/RandomNumber</SourceProjectPath>
+      <SourceProjectPath>/Users/mateuszmuszynski/RandomNumber/RandomNumber</SourceProjectPath>
       <IsXPCService></IsXPCService>
     </_PostProcessingItem>
   </ItemGroup>

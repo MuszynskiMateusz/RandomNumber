@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -5,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace RandomNumber.Services
 {
-
     public static class DataService
     {
         private static string ClassesFilePath => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Classes.txt");
 
-        public static string GetStudentsFilePath(string className)
+        private static string GetStudentsFilePath(string className)
         {
             return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), $"Students_{className}.txt");
+        }
+
+        private static string GetRoundHistoryFilePath(string className)
+        {
+            return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), $"RoundHistory_{className}.txt");
         }
 
         public static async Task<List<string>> GetClassesAsync()
@@ -35,7 +40,7 @@ namespace RandomNumber.Services
 
         public static async Task<List<string>> GetStudentsAsync(string className)
         {
-            var filePath = GetStudentsFilePath(className); 
+            var filePath = GetStudentsFilePath(className);
 
             if (!File.Exists(filePath))
                 return new List<string>();
@@ -74,6 +79,18 @@ namespace RandomNumber.Services
                 var filePath = GetStudentsFilePath(className);
                 await File.WriteAllLinesAsync(filePath, students);
             }
+        }
+
+        public static async Task SaveRoundHistoryAsync(string className, List<string> participatingStudents, List<string> excludedStudents)
+        {
+            var filePath = GetRoundHistoryFilePath(className);
+
+            string historyEntry = $"Runda: {DateTime.Now}\n" +
+                                  $"Uczestnicy: {string.Join(", ", participatingStudents)}\n" +
+                                  $"Wykluczeni: {string.Join(", ", excludedStudents)}\n" +
+                                  $"----------------------------------------\n";
+
+            await File.AppendAllTextAsync(filePath, historyEntry);
         }
     }
 }
