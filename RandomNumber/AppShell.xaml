@@ -9,7 +9,7 @@
     Title="Losowanie Uczniów">
 
     <ShellContent
-        Title="Home"
+        Title="Lista Klas"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 </Shell>

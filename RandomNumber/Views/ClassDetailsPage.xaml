@@ -17,8 +17,8 @@
         </ListView>
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="10">
-            <Button Text="Dodaj Ucznia" Clicked="OnAddStudentClicked" class="button"/>
-            <Button Text="Losuj Ucznia" Clicked="OnStartRandomSelectionClicked" class="button"/>
+            <Button StyleClass="button" Text="Dodaj Ucznia" Clicked="OnAddStudentClicked" class="button"/>
+            <Button StyleClass="button" Text="Losuj Ucznia" Clicked="OnStartRandomSelectionClicked" class="button"/>
         </StackLayout>
 
         <CollectionView x:Name="RandomSelectionList" SelectionMode="Multiple" IsVisible="False">

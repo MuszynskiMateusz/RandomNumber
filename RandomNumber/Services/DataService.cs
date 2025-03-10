@@ -80,6 +80,29 @@ namespace RandomNumber.Services
                 await File.WriteAllLinesAsync(filePath, students);
             }
         }
+        
+        public static async Task DeleteClassAsync(string className)
+        {
+            var classes = await GetClassesAsync();
+            if (classes.Remove(className))
+            {
+                await File.WriteAllLinesAsync(ClassesFilePath, classes);
+
+                // Usuń plik z uczniami dla danej klasy
+                var studentsFilePath = GetStudentsFilePath(className);
+                if (File.Exists(studentsFilePath))
+                {
+                    File.Delete(studentsFilePath);
+                }
+
+                // Usuń historię losowań dla danej klasy
+                var historyFilePath = GetRoundHistoryFilePath(className);
+                if (File.Exists(historyFilePath))
+                {
+                    File.Delete(historyFilePath);
+                }
+            }
+}
 
         public static async Task SaveRoundHistoryAsync(string className, List<string> participatingStudents, List<string> excludedStudents)
         {
