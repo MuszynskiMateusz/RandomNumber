@@ -1,0 +1,20 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RandomNumber"
+             x:Class="RandomNumber.MainPage"
+             Title="Lista Klas">
+
+    <StackLayout Padding="10">
+        <ListView StyleClass="lista_klas" x:Name="ClassesList" ItemSelected="OnClassSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="{Binding}" StyleClass="klasa_w_liscie"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Text="Dodaj Klasę" Clicked="OnAddClassClicked" />
+    </StackLayout>
+</ContentPage>

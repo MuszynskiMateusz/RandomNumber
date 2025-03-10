@@ -1,0 +1,15 @@
+<Shell
+    x:Class="RandomNumber.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:RandomNumber"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.BackgroundColor="#007AFF"
+    Shell.TitleColor="White"
+    Title="Losowanie Uczniów">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+</Shell>

@@ -1,0 +1,32 @@
+^contentpage {
+    background-color: black;
+}
+
+.lista_klas {
+    background-color: black;
+    gap: 5;
+}
+
+.klasa_w_liscie {
+    margin-top: 5;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    text-align: center;
+    font-size: 25;
+}
+
+.lista_uczniow{
+    background-color: black;
+}
+
+.uczen_w_liscie{
+    margin-top: 5;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    text-align: center;
+    font-size: 25;
+}
+
+#ClassDetailsPage{
+    background-color: black;
+}

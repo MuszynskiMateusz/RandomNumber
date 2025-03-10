@@ -1,0 +1,37 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RandomNumber.ClassDetailsPage"
+             Title="{Binding ClassName}"
+             class="content-page"
+             StyleId="ClassDetailsPage">
+
+    <StackLayout Padding="10">
+        <ListView StyleClass="lista_uczniow" x:Name="StudentsList" ItemTapped="OnStudentTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="{Binding}" StyleClass="uczen_w_liscie"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="10">
+            <Button Text="Dodaj Ucznia" Clicked="OnAddStudentClicked" class="button"/>
+            <Button Text="Losuj Ucznia" Clicked="OnStartRandomSelectionClicked" class="button"/>
+        </StackLayout>
+
+        <CollectionView x:Name="RandomSelectionList" SelectionMode="Multiple" IsVisible="False">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <CheckBox IsChecked="{Binding IsSelected, Mode=TwoWay}" />
+                        <Label Text="{Binding Name}" VerticalOptions="Center" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Wylosuj" x:Name="RandomButton" Clicked="OnPerformRandomSelectionClicked" IsVisible="False" class="button"/>
+    </StackLayout>
+</ContentPage>
