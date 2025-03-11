@@ -593,3 +593,17 @@
 /Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/RandomNumber.pdb
 /Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/RandomNumber.genruntimeconfig.cache
 /Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/ref/RandomNumber.dll
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.DependencyInjection.Abstractions.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.DependencyInjection.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Logging.Abstractions.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Logging.Debug.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Logging.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Options.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Primitives.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Controls.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Controls.Xaml.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Essentials.stamp
+/Users/mateuszmuszynski/RandomNumber/RandomNumber/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Graphics.stamp

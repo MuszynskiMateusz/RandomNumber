@@ -88,14 +88,12 @@ namespace RandomNumber.Services
             {
                 await File.WriteAllLinesAsync(ClassesFilePath, classes);
 
-                // Usuń plik z uczniami dla danej klasy
                 var studentsFilePath = GetStudentsFilePath(className);
                 if (File.Exists(studentsFilePath))
                 {
                     File.Delete(studentsFilePath);
                 }
 
-                // Usuń historię losowań dla danej klasy
                 var historyFilePath = GetRoundHistoryFilePath(className);
                 if (File.Exists(historyFilePath))
                 {
